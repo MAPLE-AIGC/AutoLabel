@@ -8,4 +8,7 @@ Autolabel for video or image quality
     - utilize >2 people to label the same 1k video, then integrate those with consistent opinions directly, and manually review those with inconsistent opinions
 
 - train set 
-    - 
+
+## classifier training
+- label smoothing cross entropy
+- qwen-vl + several mlp-based classifier head
